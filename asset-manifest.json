@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/Quz-App/static/css/main.c8592497.css",
+    "main.js": "/Quz-App/static/js/main.299ff248.js",
+    "static/media/quiz6.jpeg": "/Quz-App/static/media/quiz6.d14f7c60a5813ba5fc54.jpeg",
+    "index.html": "/Quz-App/index.html",
+    "main.c8592497.css.map": "/Quz-App/static/css/main.c8592497.css.map",
+    "main.299ff248.js.map": "/Quz-App/static/js/main.299ff248.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c8592497.css",
+    "static/js/main.299ff248.js"
+  ]
+}
