@@ -1,13 +1,50 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background: url(../src/components/images/quiz6.jpeg);
+  padding: 0 20px;
+  background-size: cover;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.App {
+  display: grid;
+  place-items: center;
+}
+
+.App > p {
+  color: #fff;
+}
+.score {
+  color: #fff;
+}
+
+.App h1 {
+  background: linear-gradient(180deg, #fff, #87f1ff);
+  background-size: 100%;
+  /* filter: drop-shadow(2px 2px #0085a3); */
+  filter: blur(2px 2px #0085a3);
+}
+
+.next,
+.start {
+  cursor: pointer;
+  background: linear-gradient(180deg, #fff, #ffcc91);
+  border: 2px solid #d38558;
+  height: 40px;
+  margin: 20px 0;
+  padding: 0 40px;
+  border-radius: 1rem;
 }
